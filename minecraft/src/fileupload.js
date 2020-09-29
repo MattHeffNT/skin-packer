@@ -41,7 +41,7 @@ function FileUpload() {
 
 
         {/* test comment  */}
-          <input type="file" ref={ el } onChange={ handleChange } capture/>
+          <input type="file" ref={ el } onChange={ handleChange } id = "image-id" capture/>
 
           <div className="progessBar" style={{ width: progress }}> {
             progress

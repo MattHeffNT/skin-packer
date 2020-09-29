@@ -9,6 +9,7 @@ var request = require ("request")
 const cors = require('cors')
 const fileUpload = require ('express-fileupload');
 
+
 app.use (fileUpload());
 app.use(cors());
 
@@ -28,6 +29,8 @@ app.post('/upload',(req,res) => {
         }
         res.json({fileName:myFile.name,filePath:`/uploads/${myFile.name}`});
     })
+
+
 })
 
 
