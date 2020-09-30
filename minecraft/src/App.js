@@ -15,10 +15,10 @@ return (
 
       <div className="jumbotron">
         <h1 className="display-3" style={{ textAlign: "center" }}>
-          Minecraft Skin Compiler
+          Skin Compiler for Minecraft 
         </h1>
         <p className="lead" style={{ textAlign: "center" }}>
-          Provide the name for your skin then drag and drop your png file
+
         </p>
 
         <hr className="my-2" />
@@ -26,15 +26,16 @@ return (
     </header>
 
     {/* test  asdf */}
+    <p>          Edit a custom skin, fill out the name for your skin, template, and version number then upload your custom skin image file as a .png then press submit.</p>
     <p style={{ textAlign: "center" }}>
       You can edit Minecraft skins and download the PNG files
-      <a href="https://www.minecraftskins.net/" target="_blank"> here </a>
+      <a href="https://www.minecraftskins.net/" target="_blank"> here </a>.
     </p>
     <br></br>
 
   <UUID></UUID>
 
-
+  <p>*This Web Application is not endorsed by or affiliated with Mojang, Microsoft or Minecraft</p>
   </div>
 </div>
 
