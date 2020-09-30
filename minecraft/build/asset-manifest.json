@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/skin-packer/static/css/main.41653c8c.chunk.css",
+    "main.js": "/skin-packer/static/js/main.944c14c2.chunk.js",
+    "main.js.map": "/skin-packer/static/js/main.944c14c2.chunk.js.map",
+    "runtime-main.js": "/skin-packer/static/js/runtime-main.5e5bba5f.js",
+    "runtime-main.js.map": "/skin-packer/static/js/runtime-main.5e5bba5f.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/skin-packer/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.cfd3ebca.chunk.js": "/skin-packer/static/js/2.cfd3ebca.chunk.js",
+    "static/js/2.cfd3ebca.chunk.js.map": "/skin-packer/static/js/2.cfd3ebca.chunk.js.map",
+    "index.html": "/skin-packer/index.html",
+    "precache-manifest.8df6e15d5cc4da78cf0cf59d238f286d.js": "/skin-packer/precache-manifest.8df6e15d5cc4da78cf0cf59d238f286d.js",
+    "service-worker.js": "/skin-packer/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/skin-packer/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.41653c8c.chunk.css.map": "/skin-packer/static/css/main.41653c8c.chunk.css.map",
+    "static/js/2.cfd3ebca.chunk.js.LICENSE.txt": "/skin-packer/static/js/2.cfd3ebca.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e5bba5f.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.cfd3ebca.chunk.js",
+    "static/css/main.41653c8c.chunk.css",
+    "static/js/main.944c14c2.chunk.js"
+  ]
+}
