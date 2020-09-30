@@ -1,13 +1,14 @@
 # skin-packer
 
+https://mattheffnt.github.io/skin-packer/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
 ## to-do
 
-- Double check uuid generator version for Minecraft skins
-- upload image feature not functional still
-- create another folder with language file
+- future features should include being able to upload more than one image at a time 
+- form validation
 
 ## Available Scripts
 
