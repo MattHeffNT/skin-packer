@@ -2,7 +2,6 @@
   "name": "minecraft",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:5000",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -21,12 +20,10 @@
   },
   "scripts": {
     "start-js": "react-scripts start",
-    "backend-start": "node ../backend/app.js",
-    "start": "npm-run-all -p backend-start start-js",
+    "start": "npm-run-all -p start-js",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "dev": "parcel app.js"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
