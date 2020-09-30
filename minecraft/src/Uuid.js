@@ -3,7 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { v4 as uuidv4 } from 'uuid';
 import { saveAs } from 'file-saver';
 
-
 export default class UUID extends Component {
   constructor() {
     super();
@@ -20,20 +19,10 @@ export default class UUID extends Component {
     let uuid2 = uuidv4();
     let skin = document.querySelector('#skin-name').value;
     let temp = document.querySelector('#temp-name').value;
- 
     let image = document.querySelector('#image-id').files[0];
     let imageName = document.querySelector('#image-id').files[0].name; 
-
     let version = document.querySelector('#version').value;
     version = parseInt(version, 10);
-
-    let test = document.querySelector('#image-id')
-  
-
-    test.addEventListener("change", () => {
-      console.log(this.files);
-    })
-
 
     // on button click try and export as json file
     let skinjson =    
@@ -73,7 +62,6 @@ export default class UUID extends Component {
   let lang = `skinpack.${temp}=${temp}
   skin.${temp}.${skin} name=${skin}
   `
-  
   skinjson = JSON.stringify(skinjson)
   manifest = JSON.stringify(manifest)
 
@@ -89,7 +77,6 @@ export default class UUID extends Component {
       saveAs(blob, `${temp}.mcpack`);
   });
 
-    
 };
 
   render() {
@@ -97,24 +84,20 @@ export default class UUID extends Component {
     return (
 
       <div className="form-group">
-      <label for="">Name for Skin</label>
-      <input type="text" className="form-control" name="" id="skin-name" aria-describedby="helpId" placeholder="" />
-      <label for="">Template Name</label>
-      <input type="text" className="form-control" name="" id="temp-name" aria-describedby="helpId" placeholder="" />
+        <label for="">Name for Skin</label>
+        <input type="text" className="form-control" name="" id="skin-name" aria-describedby="helpId" placeholder="" />
+        <label for="">Template Name</label>
+        <input type="text" className="form-control" name="" id="temp-name" aria-describedby="helpId" placeholder="" />
+        <label for="">Version Number</label>
+        <input type="text" className="form-control" name="" id="version" aria-describedby="helpId" placeholder="" />
+        <br></br>
 
-      <label for="">Version Number</label>
-      <input type="text" className="form-control" name="" id="version" aria-describedby="helpId" placeholder="" />
-      <br></br>
+        {/* need to do some form validation stuff on this  */}
+        <label for="">Image Upload</label>
+        <input type="file" className="form-control" name="png" id="image-id" accept=".png" aria-describedby="helpId" placeholder="" /> 
 
-      {/* need to do some form validation stuff on this  */}
-      <label for="">Image Upload</label>
-      <input type="file" className="form-control" name="png" id="image-id" accept=".png" aria-describedby="helpId" placeholder="" /> 
-
-      
-      <br></br>
-
-
-      <br />
+        <br></br>
+        <br />
 
         <button type="submit" className="btn btn-primary" onClick={this.handleButtonClick}>
           Submit
