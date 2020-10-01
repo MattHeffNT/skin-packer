@@ -8,36 +8,33 @@ function App() {
 
 return (
 
-<div className="App">
-  <div className="container">
-    <header className="App-header">
-      <br />
+  <div className="App">
+    <div className="container">
+      <header className="App-header">
+        <br />
 
-      <div className="jumbotron">
-        <h1 className="display-3" style={{ textAlign: "center" }}>
-          Skin Compiler for Minecraft 
-        </h1>
-        <p className="lead" style={{ textAlign: "center" }}>
+        <div className="jumbotron">
+          <h1 className="display-3" style={{ textAlign: "center" }}>
+            Skinpack creator for Minecraft 
+          </h1>
 
-        </p>
+          <hr className="my-2" />
+        </div>
+      </header>
 
-        <hr className="my-2" />
-      </div>
-    </header>
+      {/* test  asdf */}
+      <p>Edit a custom skin, fill out the name for your skin, template, and version number then upload your custom skin image file as a .png then press submit.</p>
+      <p style={{ textAlign: "center" }}>
+        You can edit Minecraft skins and download the PNG files
+        <a href="https://www.minecraftskins.net/" target="_blank"> here </a>.
+      </p>
+      <br></br>
 
-    {/* test  asdf */}
-    <p>          Edit a custom skin, fill out the name for your skin, template, and version number then upload your custom skin image file as a .png then press submit.</p>
-    <p style={{ textAlign: "center" }}>
-      You can edit Minecraft skins and download the PNG files
-      <a href="https://www.minecraftskins.net/" target="_blank"> here </a>.
-    </p>
-    <br></br>
+      <UUID></UUID>
 
-  <UUID></UUID>
-
-  <p>*This Web Application is not endorsed by or affiliated with Mojang, Microsoft or Minecraft</p>
+    <p>*This Web Application is not endorsed by or affiliated with Mojang, Microsoft or Minecraft</p>
+    </div>
   </div>
-</div>
 
   );
 }
