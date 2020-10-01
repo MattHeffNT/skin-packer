@@ -6,7 +6,7 @@ https://mattheffnt.github.io/skin-packer/
 
 ## Features
 
-At the moment, the Skin Packer can only compile one custom skin file for the game, however I do plan on extending this capability. Essentially this is form where a user inputs the respective details for their skin, uploads their custom skin PNG file and the MCPACK is generated for them.
+At the moment, the Skin Packer can only compile one custom skin file for the game, however I do plan on extending this capability. Essentially this is a form where a user inputs the respective details for their skin, uploads their custom skin PNG file and the MCPACK is generated for them.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -36,7 +36,7 @@ To push your respective React production build to a Github pages page.
  - Filesaver
  - React Bootstrap
  - React-Dom
- - gh-pages-deploya
+ - gh-pages-deploy
  
 ## To Do 
 
