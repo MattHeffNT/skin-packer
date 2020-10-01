@@ -68,7 +68,7 @@ import { saveAs } from 'file-saver';
   // zip then download
   zip.generateAsync({type:"blob"})
   .then(function (blob) {
-      saveAs(blob, `${temp}.zip`);
+      saveAs(blob, `${temp}.mcpack`);
   });
 
 };
