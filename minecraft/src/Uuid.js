@@ -3,13 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { v4 as uuidv4 } from 'uuid';
 import { saveAs } from 'file-saver';
 
-export default class UUID extends Component {
-  constructor() {
-    super();
-    this.state = {
-      uuid: "hmm",
-    };
-  }
+ class UUID extends React.Component {
 
    handleButtonClick() {
 
@@ -108,3 +102,5 @@ export default class UUID extends Component {
     );
   }
 }
+
+export default UUID;
