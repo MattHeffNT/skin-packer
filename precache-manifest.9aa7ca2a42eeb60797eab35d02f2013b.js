@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "787b84521fa552afa4d90447155299a4",
+    "revision": "0c73d28a51f975319b4bbf4d3b332264",
     "url": "/skin-packer/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/skin-packer/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "07c003e33fe1de39762f",
+    "revision": "d6c41663feedba1298f3",
     "url": "/skin-packer/static/css/main.41653c8c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/skin-packer/static/js/2.cfd3ebca.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "07c003e33fe1de39762f",
-    "url": "/skin-packer/static/js/main.882f45f1.chunk.js"
+    "revision": "d6c41663feedba1298f3",
+    "url": "/skin-packer/static/js/main.ae898ed2.chunk.js"
   },
   {
     "revision": "bc4a817af86e9ae143c4",
