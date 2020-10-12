@@ -34,7 +34,7 @@ import { saveAs } from 'file-saver';
 
     let manifest = 
       {
-        "format_version": version,
+        "format_version": 1,
         "header": {
             "name": `${temp}`,
             "uuid": `${uuid1}`,
