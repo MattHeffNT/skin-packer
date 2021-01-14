@@ -32,7 +32,6 @@ To push your respective React production build to a Github pages page.
 
  - uuid
  - JSZip
- - Browserify
  - Filesaver
  - React Bootstrap
  - React-Dom
