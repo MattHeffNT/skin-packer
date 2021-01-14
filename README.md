@@ -36,6 +36,7 @@ To push your respective React production build to a Github pages page.
  - React Bootstrap
  - React-Dom
  - gh-pages-deploy
+ - react-file-drop
  
 ## To Do 
 
