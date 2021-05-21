@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/skin-packer/static/css/main.41653c8c.chunk.css",
-    "main.js": "/skin-packer/static/js/main.ae898ed2.chunk.js",
-    "main.js.map": "/skin-packer/static/js/main.ae898ed2.chunk.js.map",
-    "runtime-main.js": "/skin-packer/static/js/runtime-main.5e5bba5f.js",
-    "runtime-main.js.map": "/skin-packer/static/js/runtime-main.5e5bba5f.js.map",
-    "static/css/2.d9ad5f5c.chunk.css": "/skin-packer/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.cfd3ebca.chunk.js": "/skin-packer/static/js/2.cfd3ebca.chunk.js",
-    "static/js/2.cfd3ebca.chunk.js.map": "/skin-packer/static/js/2.cfd3ebca.chunk.js.map",
+    "main.css": "/skin-packer/static/css/main.076d0276.chunk.css",
+    "main.js": "/skin-packer/static/js/main.e04c65fa.chunk.js",
+    "main.js.map": "/skin-packer/static/js/main.e04c65fa.chunk.js.map",
+    "runtime-main.js": "/skin-packer/static/js/runtime-main.cd8eed1a.js",
+    "runtime-main.js.map": "/skin-packer/static/js/runtime-main.cd8eed1a.js.map",
+    "static/css/2.74b270cf.chunk.css": "/skin-packer/static/css/2.74b270cf.chunk.css",
+    "static/js/2.ec8e2a78.chunk.js": "/skin-packer/static/js/2.ec8e2a78.chunk.js",
+    "static/js/2.ec8e2a78.chunk.js.map": "/skin-packer/static/js/2.ec8e2a78.chunk.js.map",
     "index.html": "/skin-packer/index.html",
-    "precache-manifest.9aa7ca2a42eeb60797eab35d02f2013b.js": "/skin-packer/precache-manifest.9aa7ca2a42eeb60797eab35d02f2013b.js",
-    "service-worker.js": "/skin-packer/service-worker.js",
-    "static/css/2.d9ad5f5c.chunk.css.map": "/skin-packer/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.41653c8c.chunk.css.map": "/skin-packer/static/css/main.41653c8c.chunk.css.map",
-    "static/js/2.cfd3ebca.chunk.js.LICENSE.txt": "/skin-packer/static/js/2.cfd3ebca.chunk.js.LICENSE.txt"
+    "static/css/2.74b270cf.chunk.css.map": "/skin-packer/static/css/2.74b270cf.chunk.css.map",
+    "static/css/main.076d0276.chunk.css.map": "/skin-packer/static/css/main.076d0276.chunk.css.map",
+    "static/js/2.ec8e2a78.chunk.js.LICENSE.txt": "/skin-packer/static/js/2.ec8e2a78.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5e5bba5f.js",
-    "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.cfd3ebca.chunk.js",
-    "static/css/main.41653c8c.chunk.css",
-    "static/js/main.ae898ed2.chunk.js"
+    "static/js/runtime-main.cd8eed1a.js",
+    "static/css/2.74b270cf.chunk.css",
+    "static/js/2.ec8e2a78.chunk.js",
+    "static/css/main.076d0276.chunk.css",
+    "static/js/main.e04c65fa.chunk.js"
   ]
 }
