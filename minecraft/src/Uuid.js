@@ -3,9 +3,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { v4 as uuidv4 } from 'uuid';
 import { saveAs } from 'file-saver';
 
- class UUID extends React.Component {
+ function UUID () {
 
-   handleButtonClick() {
+  let handleButtonClick = () => {
 
     let JSZip = require("jszip");
     let zip = new JSZip();
@@ -30,7 +30,7 @@ import { saveAs } from 'file-saver';
            }
         ], "serialize_name":`${temp}`,
         "localization_name":`${temp}`
-    }
+      }
 
     let manifest = 
       {
@@ -51,7 +51,7 @@ import { saveAs } from 'file-saver';
                 ]
             }
         ]
-    }
+      }
 
   let lang = `skinpack.${temp}=${temp}
   skin.${temp}.${skin} name=${skin}
@@ -73,16 +73,14 @@ import { saveAs } from 'file-saver';
 
 };
 
-  render() {
-
-    return (
+  return ( 
 
       <div className="form-group">
-        <label for="">Name for Skin</label>
+        <label htmlFor="">Name for Skin</label>
         <input type="text" className="form-control" name="" id="skin-name" aria-describedby="helpId" placeholder="" />
-        <label for="">Template Name</label>
+        <label htmlFor="">Template Name</label>
         <input type="text" className="form-control" name="" id="temp-name" aria-describedby="helpId" placeholder="" />
-        <label for="">Version Number</label>
+        <label htmlFor="">Version Number</label>
         <input type="text" className="form-control" name="" id="version" aria-describedby="helpId" placeholder="" />
         <br></br>
 
@@ -93,14 +91,12 @@ import { saveAs } from 'file-saver';
         <br></br>
         <br />
 
-        <button type="submit" className="btn btn-primary" onClick={this.handleButtonClick}>
+        <button type="submit" className="btn btn-primary" onClick={handleButtonClick}>
           Submit
         </button>
 
       </div>
-
-    );
-  }
+  );
 }
 
 export default UUID;
