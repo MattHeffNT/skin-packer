@@ -30,9 +30,8 @@ To push your respective React production build to a Github pages page.
 
 ## Dependencies 
 
- - uuid
+ - UUID
  - JSZip
- - Browserify
  - Filesaver
  - React Bootstrap
  - React-Dom
