@@ -39,6 +39,8 @@ To push your respective React production build to a Github pages page.
  
 ## To Do 
 
+- Error handling for empty form values and button click
+
 - future features should include being able to upload more than one image at a time 
 
 - form validation
