@@ -1,3 +1,4 @@
+/* Demo.css */
 
 .file-drop {
   /* relatively position the container bc the contents are absolute */
@@ -6,12 +7,7 @@
   width: 100%;
 }
 
-.file-drop-target {
-    border-style: solid;
-    border-width:1px;
-}
-
-.file-drop > .file-drop-target {
+.file-drop>.file-drop-target {
   /* basic styles */
   position: absolute;
   top: 0;
@@ -49,7 +45,7 @@
   text-align: center;
 }
 
-.file-drop > .file-drop-target.file-drop-dragging-over-frame {
+.file-drop>.file-drop-target.file-drop-dragging-over-frame {
   /* overlay a black mask when dragging over the frame */
   border: none;
   background-color: rgba(0, 0, 0, 0.65);
@@ -61,7 +57,7 @@
   color: white;
 }
 
-.file-drop > .file-drop-target.file-drop-dragging-over-target {
+.file-drop>.file-drop-target.file-drop-dragging-over-target {
   /* turn stuff orange when we are dragging over the target */
   color: #ff6e40;
   box-shadow: 0 0 13px 3px #ff6e40;
