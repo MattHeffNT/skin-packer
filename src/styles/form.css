@@ -33,6 +33,11 @@
     margin-bottom: 1.5em;
 }
 
+.btn-primary {
+    /* margin-right: 10px; */
+    width: 50%
+}
+
 .btn-secondary {
     margin-right: 10px;
 }
@@ -46,4 +51,18 @@
     border-color: #ced4da;
     border-radius: .25rem;
     height: calc(1.5em + .75rem + 2px)
+}
+
+#btn-warning {
+    /* background-color: #333; */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+#actions {
+    width: 70%;
+    border-radius: .25rem;
+    border: 1px solid #ced4da;
 }
