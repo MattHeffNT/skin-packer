@@ -1,6 +1,6 @@
 # Skin Packer for Minecraft
 
-Although there are options via Mojang's own account/website to be able to add custom skins etc. This form was developed so that those who primarily use Minecraft's Education Edition (who may have not used Mojang's online store) could easily compile the respective JSON files and information without worrying too much about the code, and UUIDs and all the other complicated stuff.
+This form was developed so that those who primarily use Minecraft's Education Edition (who may have not used Mojang's online store) could easily compile the respective JSON files and information without worrying too much about the code, and UUIDs and all the other complicated stuff.
 
 https://mattheffnt.github.io/skin-packer/
 
