@@ -6,7 +6,7 @@ Link to the skin packer: https://mattheffnt.github.io/skin-packer/
 
 ## Features
 
-This is a form where a user inputs the respective details for their skin file, uploads their custom skin PNG file and the MCPack is generated for them.In version two, users can now add multiple skins to their MCPack.
+This is a form where a user inputs the respective details for their skin file, uploads their custom skin PNG file and the MCPack is generated for them.In version two, users can now add multiple skins to their MCPack.Now in v2, users can see in realtime how their skin will look in the game.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
