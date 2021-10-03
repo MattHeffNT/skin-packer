@@ -25,3 +25,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Just wanted to give a big thank you to the creators of the react-skinview3d package (link below), and for working with me through some of the issues in intergrating it into this app.
 
 https://github.com/Hacksore/react-skinview3d
+
+## License
+
+MIT © [MattHeffNT](https://github.com/MattHeffNT)
