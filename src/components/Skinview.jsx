@@ -1,4 +1,3 @@
-import '../styles/styles.css';
 import React, { useEffect } from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { v4 as uuidv4 } from 'uuid';
@@ -6,6 +5,7 @@ import { saveAs } from 'file-saver';
 import FileInput from './FileInput';
 import JSZip from 'jszip';
 import '../styles/formError.css';
+import '../styles/styles.css';
 
 export default function Skinview() {
     var skinjson = {
@@ -33,15 +33,10 @@ export default function Skinview() {
         // eslint-disable-next-line no-undef
 
         // stop refreshing page on button press
-        // e.preventDefault();
         var skin = document.querySelector('#skin-name');
         var pack = document.querySelector('#temp-name');
         var model = document.querySelector('#image-id');
         var vers = document.querySelector('#version');
-
-        // buttons
-        // var downloadButton = document.querySelector('#download');
-        // var add = document.querySelector('#addSkin');
 
         var temp = pack.value;
         var lang = [`skinpack.${temp}=${temp}`];
@@ -125,7 +120,7 @@ export default function Skinview() {
             zip.file(`${temp}/manifest.json`, `${manifest_string}`);
             zip.file(`${temp}/texts/en_US.lang`, `${lang}`);
 
-            // if the download button was pressed and all of the fields are filled then call download function and or add skin
+            // if the download or add button was pressed and all of the fields are filled then call download function and or add skin
 
             if (
                 e.nativeEvent.srcElement.id == 'download' &&
@@ -167,7 +162,7 @@ export default function Skinview() {
 
         var temp = document.querySelector('#temp-name').value;
         zip.generateAsync({ type: 'blob' }).then(function (blob) {
-            saveAs(blob, `${temp}.zip`);
+            saveAs(blob, `${temp}.mcpack`);
             // console.log('downloaded');
         });
 
@@ -229,7 +224,6 @@ export default function Skinview() {
                                 >
                                     Download Pack
                                 </Button>
-                                {/* add another button to add another skin */}
                                 <Button
                                     type="submit"
                                     id="addSkin"
