@@ -6,7 +6,8 @@
 .pnp.js
 /minecraft/node_modules
 node_modules/
-
+removeSkins.js
+/public
 # testing
 /coverage
 

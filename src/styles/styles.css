@@ -1,0 +1,36 @@
+body {
+    background-color: #01274d !important;
+    color: rgb(177, 177, 177) !important;
+}
+
+.DarkMode {
+    margin-left: -5em;
+}
+
+#FileInput {
+    margin-top: 1.5em;
+}
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.Container {
+    text-align: center;
+}
+
+.row {
+    border-style: solid;
+    border-color: #6a83f4;
+    padding: 1em;
+}
+
+canvas {
+    /* Maybe add a Minecraft image background  */
+    background-color: #6a83f4;
+}
+
+#addSkin {
+    margin-left: 1em;
+}
