@@ -7,7 +7,7 @@
 /minecraft/node_modules
 node_modules/
 removeSkins.js
-/public
+/public/textures
 # testing
 /coverage
 
