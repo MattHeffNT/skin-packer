@@ -12,9 +12,16 @@ for /F %%A in ('dir /b /a %_folder%') Do (
 Exit /B 0
 
 :List
+    echo this is the list of installed skin packs:
+    echo ------------------------------------
     dir /B "%AppData%\Minecraft Education Edition\games\com.mojang\skin_packs"    
-    set /p skinName=please enter pack name to delete:
+
+    echo ------------------------------------
+    set /p skinName=please enter skin pack name to delete or press x to exit:
     set skinPath=%AppData%\Minecraft Education Edition\games\com.mojang\skin_packs
+
+    if %skinName% ==x (goto :Exit)
+    
     CALL :Remove
 Exit /B %ERRORLEVEL% 
 
