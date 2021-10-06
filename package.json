@@ -1,5 +1,6 @@
 {
-    "name": "skinview3d",
+    "homepage": "https://MattHeffNT.github.io/skin-packer",
+    "name": "skinpacker",
     "version": "1.0.0",
     "description": "",
     "keywords": [],
@@ -7,6 +8,7 @@
     "dependencies": {
         "bootstrap": "^5.1.0",
         "file-saver": "^2.0.5",
+        "gh-pages-deploy": "^0.5.1",
         "jszip": "^3.7.1",
         "react": "17.0.2",
         "react-bootstrap": "^2.0.0-beta.6",
@@ -17,13 +19,16 @@
     },
     "devDependencies": {
         "@babel/runtime": "7.13.8",
+        "gh-pages": "^3.2.3",
         "typescript": "4.1.3"
     },
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test --env=jsdom",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "browserslist": [
         ">0.2%",
