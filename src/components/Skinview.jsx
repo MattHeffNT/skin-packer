@@ -25,7 +25,6 @@ export default function Skinview() {
             var element = input[i];
 
             element.addEventListener('change', (event) => {
-                // console.log(event);
                 event.target.classList.remove('error');
             });
         }
