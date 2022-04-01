@@ -18,8 +18,7 @@ function FileInput() {
 
         // handle error when someone doesn't select a file
         try {
-            reader.readAsDataURL(skinFile);
-            // console.log(e.target.value);
+            reader.readAsDataURL(skinFile);   
         } catch (err) {
             console.log('no file selected');
         }
