@@ -8,6 +8,8 @@ import '../styles/formError.css';
 import '../styles/styles.css';
 
 export default function Skinview() {
+    
+    // set empty skin array which is where we will push skin data into
     var skinjson = {
         skins: [],
     };
@@ -30,9 +32,8 @@ export default function Skinview() {
     });
 
     let handleButtonClick = (e) => {
-        // eslint-disable-next-line no-undef
-
-        // stop refreshing page on button press
+        
+       
         var skin = document.querySelector('#skin-name');
         var pack = document.querySelector('#temp-name');
         var model = document.querySelector('#image-id');
@@ -105,23 +106,23 @@ export default function Skinview() {
                 skin.${temp}.${element}=${element}
             `);
             }
-
+            
             var skinjson_string = JSON.stringify(skinjson);
             var manifest_string = JSON.stringify(manifest);
 
             lang = lang.join('');
-            // console.log(lang);
-
+            
+            // zip the image files to the temp (skin pack) folder
             zip.file(`${temp}/${fileName}`, image, {
                 binary: true,
             });
-
+            
+            // zip the skin, manifest and lang JSON text files into skinpack folder
             zip.file(`${temp}/skins.json`, `${skinjson_string}`);
             zip.file(`${temp}/manifest.json`, `${manifest_string}`);
             zip.file(`${temp}/texts/en_US.lang`, `${lang}`);
 
             // if the download or add button was pressed and all of the fields are filled then call download function and or add skin
-
             if (
                 e.nativeEvent.srcElement.id == 'download' &&
                 skin.value != '' &&
@@ -129,41 +130,35 @@ export default function Skinview() {
                 model.value != '' &&
                 vers.value != ''
             ) {
+                // if download button pressed, call the download function
                 download();
-            } else if (
+            } else if ( // if the add another skin button was pressed clear fields then add new data
                 e.nativeEvent.srcElement.id == 'addSkin' &&
                 skin.value != '' &&
                 pack.value != '' &&
                 model.value != '' &&
                 vers.value != ''
             ) {
-                //     .querySelector('.row')
-                //     .insertBefore('col', `<h4>Add Skin</h4>`);
+
                 // add another skin
                 document.querySelector('#skin-name').value = null;
                 document.querySelector('#image-id').value = null;
                 document.querySelector('#temp-name').value = `${temp}`;
-                // console.log(temp);
                 document.querySelector('#temp-name').style = 'display:none';
                 document.querySelector('#skinPackName').style = 'display:none';
                 document.querySelector('#version').value = `${version}`;
                 document.querySelector('#version').style = 'display:none;';
                 document.querySelector('#version_label').style =
                     'display:none;';
-                // console.log('add another skin');
             } // end of conditional
         } // end of loop
     }; // end of handle click function
 
     function download() {
-        // add logic that if form inputs empty then don't download
-        // document.querySelectorAll('input').value;
-        // let files = model.files;
 
         var temp = document.querySelector('#temp-name').value;
         zip.generateAsync({ type: 'blob' }).then(function (blob) {
             saveAs(blob, `${temp}.mcpack`);
-            // console.log('downloaded');
         });
 
         // refresh back to main state
