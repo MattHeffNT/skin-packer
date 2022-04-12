@@ -8,15 +8,17 @@ Link to the skin packer: https://mattheffnt.github.io/skin-packer/
 
 This is a form where a user inputs the respective details for their skin file, uploads their custom skin PNG file and the MCPack is generated for them.In version two, users can now add multiple skins to their MCPack. Users can also now see their skin in realtime and how it will look in-game.
 
-Additionally, run this command in command pro
-  
+Additionally, I've made a batch script for Windows users that is an easy automated way to delete any custom skinpacks that the user may have imported into Minecraft Education Edition.
+
+Simply run the following command in command prompt, this will download the batch script to your Desktop, then double click the "removeSkins.bat" file and follow the instructions.
+
 ```
-  
+  cd %homepath%/Desktop;
   curl https://raw.githubusercontent.com/MattHeffNT/skin-packer/master/removeSkins.bat -o removeSkins.bat
   
 ```
   
-remove skins script</a>) that Windows users can download and use by simply double clicking the file and following through the prompts. The batch script is an easy automated way to delete any custom skinpacks that they user may have imported into Minecraft Education. When I get time I'll add a script for Linux and OSX.
+ When I get time I'll add a script for Linux and OSX.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
