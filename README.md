@@ -10,11 +10,12 @@ This is a form where a user inputs the respective details for their skin file, u
 
 Additionally, I've made a batch script for Windows users that is an easy automated way to delete any custom skinpacks that the user may have imported into Minecraft Education Edition.
 
-Simply run the following command in command prompt, this will download the batch script to your Desktop, then double click the "removeSkins.bat" file and follow the instructions.
+Simply run the following command in command prompt, this will download the batch script to your Desktop, then follow the instructions.
 
 ```
   cd %homepath%/Desktop;
-  curl https://raw.githubusercontent.com/MattHeffNT/skin-packer/master/removeSkins.bat -o removeSkins.bat
+  curl https://raw.githubusercontent.com/MattHeffNT/skin-packer/master/removeSkins.bat -o removeSkins.bat;
+  removeSkins.bat
   
 ```
   
