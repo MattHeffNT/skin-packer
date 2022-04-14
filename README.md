@@ -13,8 +13,8 @@ Additionally, I've made a batch script for Windows users that is an easy automat
 Simply run the following command in command prompt, this will download the batch script to your Desktop, then follow the instructions.
 
 ```
-  cd %homepath%/Desktop;
-  curl https://raw.githubusercontent.com/MattHeffNT/skin-packer/master/removeSkins.bat -o removeSkins.bat;
+  cd %homepath%/Desktop
+  curl https://raw.githubusercontent.com/MattHeffNT/skin-packer/master/removeSkins.bat -o removeSkins.bat
   removeSkins.bat
   
 ```
