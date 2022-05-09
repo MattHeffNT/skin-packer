@@ -35,8 +35,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## To Do
 
--   Some errors occuring when a user clicks button without filled out inputs.
-
 -   Getting a "required field" tool tip when add skin button pressed....also need to improve UX as can be confusing to user when they've pressed add skin button and "nothing" seems to happen.
 
 ## Acknowledgements
