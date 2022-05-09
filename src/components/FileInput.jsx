@@ -7,6 +7,17 @@ function FileInput() {
     // set default texture to load
     var [skin, setSkin] = useState('');
 
+    "experimenting with changes to remove applied skin image when user presses addSkin button"
+    // var skinCheck = sessionStorage.getitem('skin')
+
+    // chuck a useEffect before this?
+
+    // if (skinCheck == 'noSkin') {
+
+    //     setSkin('')
+
+    // }
+
     // when new image is uploaded, change skin state to uploaded skin
     let onFileChange = (e) => {
         var skinFile = e.nativeEvent.target.files[0];
