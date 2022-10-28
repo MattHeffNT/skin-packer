@@ -19,19 +19,10 @@ Simply run the following command in command prompt, this will download the batch
   
 ```
   
- When I get time I'll add a script for Linux and OSX.
+When I get time I'll add a script for Linux and OSX.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Dependencies
-
--   UUID
--   JSZip
--   Filesaver
--   React Bootstrap
--   React-Dom
--   gh-pages-deploy
--   react-skinview3d
 
 ## To Do
 
