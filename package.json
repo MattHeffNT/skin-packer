@@ -13,7 +13,7 @@
         "react": "17.0.2",
         "react-bootstrap": "^2.0.0-beta.6",
         "react-dom": "17.0.2",
-        "react-scripts": "4.0.0",
+        "react-scripts": "5.0.1",
         "react-skinview3d": "3.0.0-alpha1",
         "uuid": "^8.3.2"
     },
