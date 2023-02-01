@@ -1,3 +1,6 @@
+<a href="https://www.paypal.com/donate?business=5DZP7QEDWW85A&currency_code=AUD">
+Buy me a cup of coffee if you want</a>
+
 # Skin Packer for Minecraft Education Edition
 
 This form was developed so that those who use Minecraft's Education Edition (who may have not used Mojang's online store) could easily compile the respective JSON files and information without worrying too much about the code, and UUIDs and all the other complicated stuff.
