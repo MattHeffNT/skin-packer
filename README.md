@@ -32,6 +32,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 -   Getting a "required field" tool tip when add skin button pressed....also need to improve UX as can be confusing to user when they've pressed add skin button and "nothing" seems to happen.
 -   Add Slim skin option/skin viewer change
 -   Add zombie arm option
+-   Clean up code
 
 ## Acknowledgements
 
