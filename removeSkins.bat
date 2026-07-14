@@ -8,7 +8,7 @@ set _folder="%AppData%\Minecraft Education Edition\games\com.mojang\skin_packs"
 for /F %%A in ('dir /b /a %_folder%') Do (
     goto :List
 )
-    echo the custom installed skins folder is empty
+    echo The custom installed skins folder is empty.
     goto :Exit
     EXIT /B 0
 :List
@@ -39,9 +39,8 @@ Exit /B 0
 
 :Another
     echo.
-    set /p delAnother=would you like to remove another skin Y/N?
-    if %delAnother% ==y (CALL :Check) else (goto :Exit)
-
+    choice /c yn /m "Delete another?" & if errorlevel 2 (goto :Exit) else (CALL :Check)
+    :: Changed to choice command for better user experience and error handling.
 :Exit 
-    echo done
+    echo Exiting... 
 Exit /B 0
